@@ -14,7 +14,9 @@ Assumes the following GPIO pin assignments:
 06: Yellow Button
 13: Speaker
 
-To have the game start automatically on reboot, create /etc/systemd/system/simon.service
+To have the game start automatically on reboot, clone repository to path /home/pi/simon.
+
+Then create /etc/systemd/system/simon.service
 ```
 [Unit]
 Description=Simon
@@ -35,7 +37,7 @@ WantedBy=multi-user.target
 ```
 
 Then:
-
+```
 sudo systemctl enable simon.service
-
+```
 Upon reboot, game will start automatically
