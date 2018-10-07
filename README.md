@@ -1,4 +1,4 @@
-# htm-simon
+# Simon
 "Simon" memory game for the Raspberry Pi Zero W, reversed so user sets the pattern, and NuPIC plays it back
 
 A video of building and coding the game can be found at: https://youtu.be/aLtbAbOjMfY
@@ -18,9 +18,9 @@ Assumes the following GPIO pin assignments:
 13: Speaker
 ```
 
-To have the game start automatically on reboot, clone repository to path /home/pi/simon.
+To have the game start automatically on reboot, clone repository to path: /home/pi/simon.
 
-Then create /etc/systemd/system/simon.service
+Then create: /etc/systemd/system/simon.service
 ```
 [Unit]
 Description=Simon
