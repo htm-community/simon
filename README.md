@@ -1,5 +1,5 @@
 # htm-simon
-"Simon" game for Raspberry Pi, reversed so user sets pattern and NuPIC replays
+"Simon" game for the Raspberry Pi Zero W, reversed so user sets pattern and NuPIC replays
 
 Assumes the following GPIO pin assignments:
 
