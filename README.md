@@ -3,6 +3,7 @@
 
 Assumes the following GPIO pin assignments:
 
+```
 19: Red LED
 17: Green LED
 27: Blue LED
@@ -13,6 +14,7 @@ Assumes the following GPIO pin assignments:
 05: Blue Button
 06: Yellow Button
 13: Speaker
+```
 
 To have the game start automatically on reboot, clone repository to path /home/pi/simon.
 
